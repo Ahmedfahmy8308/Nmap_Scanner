@@ -1,0 +1,24 @@
+# Example Targets File for Network Assessment Tool
+# Lines starting with # are comments and will be ignored
+# Format: One target per line (IP address, CIDR notation, or domain)
+
+# Example 1: Single IP address
+192.168.1.1
+
+# Example 2: Domain name (use only authorized test domains)
+scanme.nmap.org
+
+# Example 3: CIDR notation for subnet scanning
+# Note: Large subnets may take a very long time to scan
+# 192.168.1.0/24
+
+# Example 4: Multiple specific IPs
+ 10.0.0.1
+ 10.0.0.2
+ 10.0.0.5
+
+# IMPORTANT REMINDERS:
+# - Only scan systems you have explicit permission to scan
+# - Unauthorized network scanning is illegal
+# - Remove the # to uncomment targets you want to scan
+# - scanme.nmap.org is provided by Nmap project for testing purposes

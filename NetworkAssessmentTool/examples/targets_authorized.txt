@@ -1,0 +1,8 @@
+
+192.168.56.101
+192.168.56.102
+
+lab1.university.edu
+lab2.university.edu
+
+# kygbyugug ygbbki

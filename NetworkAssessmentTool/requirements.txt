@@ -1,0 +1,17 @@
+# Network Security Assessment Tool - Python Dependencies
+# Installation: pip install -r requirements.txt
+
+# PDF Report Generation
+reportlab>=4.0.0
+
+# GUI Framework (for GUI version)
+customtkinter>=5.0.0
+
+# No additional dependencies required for CLI version!
+# The tool uses only Python standard library modules for core functionality:
+# - subprocess (for running Nmap)
+# - re (for parsing output)
+# - ipaddress (for IP validation)
+# - datetime (for timestamps)
+# - os, sys (for file operations)
+# - argparse (for command-line arguments)
